@@ -35,6 +35,7 @@ public class BaseTest {
 	
 	public WebDriver initializeDriver() throws IOException
 	{
+		// I am just adding a comment here
 		// in java there is a  properties class which read global properties
 		Properties prop = new Properties();
 		FileInputStream fis = new FileInputStream(System.getProperty("user.dir")
